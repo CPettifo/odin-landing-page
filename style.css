@@ -1,0 +1,67 @@
+.first-part {
+    background-color: #1F2937;
+    
+}
+
+.second-part {
+}
+
+.quote-part {
+    background-color: #E5E7EB;
+}
+
+.final-part {
+    background-color: #3882F6;
+}
+
+.copyright {
+    background-color: blue;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+}
+
+.links {
+    display: flex;
+    gap: 50px;
+}
+
+.logo {
+    display: flex;
+}
+
+.explanation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px;
+}
+
+.quote-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:200px;
+}
+
+.quote-text {
+}
+
+.person {
+    align-self: flex-end;
+}
