@@ -1,0 +1,1 @@
+This is my repository for the "landing page" assignment in The Odin Project.
