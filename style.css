@@ -1,67 +1,232 @@
-.first-part {
-    background-color: #1F2937;
-    
+body {
+    margin: 0;
 }
 
-.second-part {
+.first-block {
+    background-color: #1F2937;  
+    margin-top: 0px;
 }
 
-.quote-part {
-    background-color: #E5E7EB;
-}
 
-.final-part {
-    background-color: #3882F6;
-}
 
-.copyright {
-    background-color: blue;
+.first-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Courier New", sans-serif;
 }
 
 .top-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px;
+    width: 100%;
+    font-family: serif;
 }
 
 .links {
     display: flex;
     gap: 50px;
+    font-family: serif;
+    list-style-type: none;
 }
 
-.logo {
-    display: flex;
+a {
+    text-decoration: none;
+    transition-duration: 0.4s;
+    color: #F9FAF8;
 }
+
+a:hover {
+    color: red;
+}
+
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 
 .explanation {
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
-    margin: 50px;
+    width: 100%;
+    margin-bottom: 120px;
+    margin-top: 50px;
+    gap: 20px;
+    
 }
+
+.spiel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: flex-start;
+    width:580px;
+}
+
+.h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    align-self: flex-start;
+}
+
+.h5 {
+    font-size: 18px;
+    font-weight: extra-bold;
+    color: #E5E7EB;
+    text-align: left;
+
+    font-family: "Courier New", sans-serif;
+}
+
+.signup {
+    background-color: #3882F6;
+    text-align: center;
+    color: #E5E7EB;
+    cursor: pointer;
+
+    border-radius:12px;
+    font-size: 20px;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+
+.signup:hover {
+    background-color: #E5E7EB;
+    color: #3882F6;
+}
+
+
+.explanation img {
+    width: 580px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+
+}
+
+
+.second-block {
+    margin-top: 10px;
+}
+
 
 .h2 {
     text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+
+
+.second-block img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
 }
 
 .images {
     display: flex;
-    justify-content: space-evenly;
-    margin: 70px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    gap: 50px;
 }
 
-.quote-part {
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+    gap: 10px;
+}
+
+.third-block {
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding:200px;
 }
 
+
 .quote-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right:80px;
+    font-size: 38px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: justify;
 }
 
 .person {
     align-self: flex-end;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+
+
+
+.fourth-block {
+    font-family: "Courier New", sans-serif
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius:12px;
+    font-size: 20px;
+    padding: 10px;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+.call-to-action button:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.call-to-action a {
+    color: white;
+    font-size: 20px;
+}
+
+.cta {
+    margin-right:50px;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+
+.sign-down {
+    display:flex;
 }
